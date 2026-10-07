@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPremium - Venda de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🚗 AutoPremium</div>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-text">Modo Escuro</span>
+        </button>
+    </header>
+
+    <section class="hero">
+        <h1>Encontre o Carro dos Seus Sonhos</h1>
+        <p>Os melhores veículos com preços imbatíveis e condições especiais de pagamento.</p>
+        <a href="#cars" class="cta-button">Ver Carros Disponíveis</a>
+    </section>
+
+    <section id="cars" class="cars-section">
+        <h2 class="section-title">Carros Disponíveis</h2>
+        <div class="cars-grid">
+            <div class="car-card">
+                <div class="car-image">🚙</div>
+                <div class="car-info">
+                    <h3 class="car-title">SUV Premium 2025</h3>
+                    <div class="car-price">R$ 189.900</div>
+                    <div class="car-details">
+                        <p>• Motor 2.0 Turbo</p>
+                        <p>• Automático</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">🚗</div>
+                <div class="car-info">
+                    <h3 class="car-title">Sedan Executivo 2025</h3>
+                    <div class="car-price">R$ 145.500</div>
+                    <div class="car-details">
+                        <p>• Motor 1.6</p>
+                        <p>• Automático</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">🏎️</div>
+                <div class="car-info">
+                    <h3 class="car-title">Esportivo GT 2025</h3>
+                    <div class="car-price">R$ 289.900</div>
+                    <div class="car-details">
+                        <p>• Motor 3.0 V6</p>
+                        <p>• Automático</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">🚐</div>
+                <div class="car-info">
+                    <h3 class="car-title">Hatch Compact 2024</h3>
+                    <div class="car-price">R$ 98.900</div>
+                    <div class="car-details">
+                        <p>• Motor 1.0</p>
+                        <p>• Manual</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">🚙</div>
+                <div class="car-info">
+                    <h3 class="car-title">Pickup 4x4 2025</h3>
+                    <div class="car-price">R$ 225.000</div>
+                    <div class="car-details">
+                        <p>• Motor 2.8 Diesel</p>
+                        <p>• Automático</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">🚗</div>
+                <div class="car-info">
+                    <h3 class="car-title">Elétrico Eco 2025</h3>
+                    <div class="car-price">R$ 167.900</div>
+                    <div class="car-details">
+                        <p>• 100% Elétrico</p>
+                        <p>• Automático</p>
+                        <p>• 0 km</p>
+                    </div>
+                    <button class="buy-button">Tenho Interesse</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Por Que Escolher a AutoPremium?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3 class="feature-title">Melhores Preços</h3>
+                <p class="feature-description">Condições especiais e financiamento facilitado</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✅</div>
+                <h3 class="feature-title">Garantia Estendida</h3>
+                <p class="feature-description">Até 5 anos de garantia em todos os veículos</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <h3 class="feature-title">Revisão Gratuita</h3>
+                <p class="feature-description">Primeira revisão por nossa conta</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚚</div>
+                <h3 class="feature-title">Entrega em Casa</h3>
+                <p class="feature-description">Levamos seu carro novo até você</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p>Tem dúvidas ou quer agendar um test drive? Preencha o formulário abaixo:</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <input type="tel" placeholder="Seu Telefone">
+            <textarea rows="4" placeholder="Sua Mensagem"></textarea>
+            <button type="submit" class="submit-button">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>📍 Rua dos Automóveis, 123 - Baturité,Ce</p>
+        <p>📞 (xx) xxxxx-xxxx | ✉️ contato@autopremium.com.br</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
